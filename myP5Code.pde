@@ -17,9 +17,14 @@ draw = function(){
     text("MESSAGE", 159, 229); 
   }
   
+  if (number > 5) {
+ text("YES", 176, 200);
+  }
+
+
 };
 
-mouseClicked = function(){
+mousePressed = function(){
   answer = round(random(1, 5));
 };
 
