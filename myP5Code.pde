@@ -2,7 +2,9 @@ setup = function() {
     size(400, 400);
 };
 
-var answer = 1;
+
+var number = random(1,9);
+var integer = round(number);
 
 draw = function(){
   background(100,100,100);
@@ -12,15 +14,15 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-  if (answer == 1) {
+  if (integer === 1) {
     text("YOUR", 176, 200);
     text("MESSAGE", 159, 229); 
   }
-  
-  if (number > 5) {
+  else{
+  if (integer === 5) {
  text("YES", 176, 200);
   }
-
+  }
 
 };
 
@@ -28,6 +30,9 @@ mousePressed = function(){
   answer = round(random(1, 5));
 };
 
+ if (mouseIsPressed === true)
+ {
 
+ }
 
 
