@@ -3,7 +3,7 @@ setup = function() {
 };
 
 
-var number = random(1,9);
+var number = 15;
 var integer = round(number);
 
 draw = function(){
@@ -14,12 +14,12 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-  if (integer === 1) {
+  if (number === 1) {
     text("YOUR", 176, 200);
     text("MESSAGE", 159, 229); 
   }
   else{
-  if (integer === 5) {
+  if (number === 5) {
  text("YES", 176, 200);
   }
   }
