@@ -14,7 +14,7 @@ draw = function(){
   ellipse(200, 200, 375, 375);
   fill(shapeColor);
   triangle(200, 104, 280, 280, 120, 280);
-  fill(255, 255, 255);
+  fill(0, 0, 0);
   
 
 
